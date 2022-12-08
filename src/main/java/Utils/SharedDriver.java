@@ -31,10 +31,12 @@ public class SharedDriver{
 
         switch (browser) {
             case CHROME:
-                ChromeOptions options = new ChromeOptions();
-                options.addArguments("--no-sandbox");
-                options.addArguments("--disable-dev-shm-usage");
-                options.addArguments("--headless");
+//                ChromeOptions options = new ChromeOptions();
+//                options.addArguments("--no-sandbox");
+//                options.addArguments("--disable-dev-shm-usage");
+//                options.addArguments("--headless");
+                WebDriverManager.chromedriver().setup();
+                webDriver = new ChromeDriver();
                 break;
             case FIREFOX:
                 WebDriverManager.firefoxdriver().setup();
