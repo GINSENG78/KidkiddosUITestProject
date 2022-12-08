@@ -1,0 +1,7 @@
+2022-11-14 14:11:41.302 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome=107 (valid until 2022-11-15 10:18:47)
+2022-11-14 14:11:41.305 [main] DEBUG io.github.bonigarcia.wdm.Preferences - Preference chrome107=107.0.5304.62 (valid until 2022-11-15 10:18:47)
+2022-11-14 14:11:41.305 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 107.0.5304.62 (since Google Chrome 107 is installed in your machine)
+2022-11-14 14:11:41.315 [main] DEBUG io.github.bonigarcia.wdm.WebDriverManager - Driver chromedriver 107.0.5304.62 found in cache
+2022-11-14 14:11:41.316 [main] INFO  io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/svetlana/.m2/repository/webdriver/chromedriver/mac64/107.0.5304.62/chromedriver
+2022-11-14 14:11:44.633 [main] INFO  MainPageTest - Book by language- English Only
+2022-11-14 14:11:44.633 [main] INFO  Pages.BasePage - Clicking element with xpath exist //a[@aria-controls= 'SiteNavLabel-books-by-language']
